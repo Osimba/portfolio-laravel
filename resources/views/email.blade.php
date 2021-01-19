@@ -1,0 +1,7 @@
+Portfolio - Mesasge from: {{ $name }}
+
+<p>Name: {{ $name }}</p>
+
+<p>Email: {{ $email }}</p>
+
+<p>Message: {{ $userMessage }}</p>
