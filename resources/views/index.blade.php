@@ -77,9 +77,12 @@
                 <p><strong>Technologies Used:</strong></p>
                 <p>PHP, Laravel, Bootstrap, JavaScript, JQuery, AJAX, MySQL</p>
 
-                <a class="project-link" target="_blank" href="https://musetudio.com/">
-                    <button class="btn button-link btn-lg">Check it out</button>
-                </a>
+                <div class="project-link">
+                    <a target="_blank" href="https://musetudio.com/">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+
+                </div>
             </div>
         </div> <!-- project-row -->
 
@@ -106,12 +109,17 @@
                 <p>PHP, Laravel, Bootstrap, JavaScript, VueJS, Axios, MySQL</p>
 
                 <div class="row">
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://github.com/Osimba/njword/">
-                        <button class="btn second-link btn-lg">Github</button>
-                    </a>
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://njword.proqweb.com/">
-                        <button class="btn button-link btn-lg">Check it out</button>
-                    </a>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://github.com/Osimba/njword/">
+                            <button class="btn second-link btn-lg">Github</button>
+                        </a>
+                    </div>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://njword.proqweb.com/">
+                            <button class="btn button-link btn-lg">Check it out</button>
+                        </a>
+                    </div>
+                    
                 </div>
 
                 <p>Email: osiqua@hotmail.com</p>
@@ -143,12 +151,16 @@
                 <p>HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, MySQL</p>
 
                 <div class="row">
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://github.com/Osimba/anime-list/">
-                        <button class="btn second-link btn-lg">Github</button>
-                    </a>
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://portfolio.proqweb.com/anime-list/">
-                        <button class="btn button-link btn-lg">Check it out</button>
-                    </a>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://github.com/Osimba/anime-list/">
+                            <button class="btn second-link btn-lg">Github</button>
+                        </a>
+                    </div>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://portfolio.proqweb.com/anime-list/">
+                            <button class="btn button-link btn-lg">Check it out</button>
+                        </a>
+                    </div>
                 </div>
 
                 <p>Username: Testuser </p>
@@ -178,13 +190,17 @@
                 <p>HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, MySQL</p>
 
                 <div class="row">
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://github.com/Osimba/coin-history/">
-                        <button class="btn second-link btn-lg">Github</button>
-                    </a>
 
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://portfolio.proqweb.com/coin-history-demo/">
-                        <button class="btn button-link btn-lg">Check it out</button>
-                    </a>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://github.com/Osimba/coin-history/">
+                            <button class="btn second-link btn-lg">Github</button>
+                        </a>
+                    </div>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://portfolio.proqweb.com/coin-history-demo/">
+                            <button class="btn button-link btn-lg">Check it out</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div> <!-- project-row -->
@@ -212,14 +228,16 @@
                 <p>HTML5, CSS3, Bootstrap, JavaScript, Google Charts, PHP, MySQL</p>
 
                 <div class="row">
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://github.com/Osimba/azfestival/">
-                        <button class="btn second-link btn-lg">Github</button>
-                    </a>
-
-                    <a class="project-link col-12 col-sm-6" target="_blank" href="https://azfestival.proqweb.com/">
-                        <button class="btn button-link btn-lg">Check it out</button>
-                    </a>
-
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://github.com/Osimba/azfestival/">
+                            <button class="btn second-link btn-lg">Github</button>
+                        </a>
+                    </div>
+                    <div class="project-link col-12 col-sm-6">
+                        <a target="_blank" href="https://azfestival.proqweb.com/">
+                            <button class="btn button-link btn-lg">Check it out</button>
+                        </a>
+                    </div>
                     <p>Password: Elohim1948</p>
                 </div>
             </div>
@@ -245,9 +263,11 @@
                 <p><strong>Technologies Used:</strong></p>
                 <p>PHP, Wordpress</p>
 
-                <a href="https://www.metalsculpturestudio.com/" target="_blank" class="project-link">
-                    <button class="btn button-link btn-lg">Check it out</button>
-                </a>
+                <div class="project-link">
+                    <a href="https://www.metalsculpturestudio.com/" target="_blank">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+                </div>
             </div>
         </div> <!-- project-row -->
 
@@ -269,9 +289,11 @@
                 <p><strong>Technologies Used:</strong></p>
                 <p>Wordpress</p>
 
-                <a href="https://visitcaringsmiles.com/services-type/all-on-4/" target="_blank" class="project-link">
-                    <button class="btn button-link btn-lg">Check it out</button>
-                </a>
+                <div class="project-link">
+                    <a href="https://visitcaringsmiles.com/services-type/all-on-4/" target="_blank">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+                </div>
             </div>
         </div> <!-- project-row -->
 
@@ -296,9 +318,12 @@
                 <p><strong>Technologies Used:</strong></p>
 
                 <p>HTML5, CSS3, JavaScript, Wordpress, Toolset</p>
-                <a href="https://www.jitseasy.com/" target="_blank" class="project-link">
-                    <button class="btn button-link btn-lg">Check it out</button>
-                </a>
+
+                <div class="project-link">
+                    <a href="https://www.jitseasy.com/" target="_blank">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+                </div>
             </div>
         </div> <!-- project-row -->
 
