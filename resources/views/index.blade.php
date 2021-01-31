@@ -3,7 +3,7 @@
 <main>
     <section id="About" class="text-center">
         <h1 class="d-none d-md-block">Problem Solver</h1>
-        <h1>Web Application Developer</h1>
+        <h1>Web Developer</h1>
         <img src="{{ asset('img/osei-quashie-web-developer.jpg') }}" alt="osei-quashie"
             class="image-circle">
         <br><br>

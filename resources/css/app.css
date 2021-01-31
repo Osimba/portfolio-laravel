@@ -67,6 +67,15 @@ section {
 	color: white;
 	background-color: #48c9f9; /* light blue color */
 }
+.navbar-dark .navbar-brand {
+	width: 70%;
+	margin-right: 0px;
+}
+.navbar-dark button {
+	max-width: 53px;
+	min-width: 53px;
+
+}
 .button-link {
 	background-color: #48c9f9; /* light blue color */
 	border-radius: 0;
