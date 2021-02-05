@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MessagesController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\File;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 })->name('home');
-
+Route::get('/projects/taskapp', function () {
+    return File::get(public_path() . '/demos/taskapp');
+});
 Route::post('/send-message', [MessagesController::class, 'sendMessage'])->name('send.message');
