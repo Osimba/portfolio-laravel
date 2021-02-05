@@ -18,7 +18,4 @@ use Illuminate\Http\File;
 Route::get('/', function () {
     return view('index');
 })->name('home');
-Route::get('/projects/taskapp', function () {
-    return File::get(public_path() . '/demos/taskapp');
-});
 Route::post('/send-message', [MessagesController::class, 'sendMessage'])->name('send.message');
