@@ -47,7 +47,7 @@
                 Upwork as a freelance web developer with a Job Success rating of 100%. Developed a marketplace web app
                 with buyers and sellers, a realtime messenger, and a dashboard to help a local church process contact
                 data. Committed to customer satisfaction and being a self-starter.</p>
-            <p>Currently taking on freelance work unil I can find a good opportunity at the right company. I love working in Laravel and VueJS, but I'm open to working in any programming language.</p>
+            <p>Currently taking on freelance work until I can find a good opportunity at the right company. I love working in Laravel and VueJS, but I'm open to working in any programming language.</p>
         </div>
     </section>
 
