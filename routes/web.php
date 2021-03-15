@@ -18,4 +18,5 @@ use Illuminate\Http\File;
 Route::get('/', function () {
     return view('index');
 })->name('home');
-Route::post('/send-message', [MessagesController::class, 'sendMessage'])->name('send.message');
+
+Route::post('/send-message', [MessagesController::class, 'store'])->name('send.message');

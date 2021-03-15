@@ -8,7 +8,19 @@ use Illuminate\Support\Facades\Mail;
 
 class MessagesController extends Controller
 {
-    public function sendMessage(Request $request) {
+    public function __construct()
+    {
+        return $this->middleware([Honeypot::class]);
+    }
+
+    /**
+     * Store the messages sent by site visitors
+     * 
+     * @param Request $request
+     * @return Response 
+     * 
+     */
+    public function store(Request $request) {
         
         $this->validate($request, [
             'name' => 'required',
