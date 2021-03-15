@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Middleware\Honeypot;
 use Illuminate\Http\Request;
 use App\Models\Message;
 use Illuminate\Support\Facades\Mail;
