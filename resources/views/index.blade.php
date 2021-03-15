@@ -404,8 +404,7 @@
 
     <section id="Hire" class="contact text-center container">
         <h2>Contact</h2>
-        <p>If you have any questions or would like to speak with me about an open position, you can email me or just fill out the form and I will get back to you.</p>
-        <p>EMAIL: <a href="mailto:osiqua@gmail.com">osiqua@gmail.com</a></p>
+        <p>If you have any questions or would like to speak with me about an open position, you can fill out the form and I will get back to you.</p>
         <br>
         <form method="post" action="{{ route('send.message') }}">
             @csrf
@@ -419,6 +418,7 @@
                 <div class="text-center form-group center-block col-12">
                     <textarea class="form-control" name="message">{{ old('message') }}</textarea>
                 </div>
+                <x-forms.honeypot></x-forms.honeypot>
                 <input type="submit" name="submit" class="btn btn-lg button-link" value="Hire Me">
             </div>
         </form>
