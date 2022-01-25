@@ -156,7 +156,7 @@
                         </a>
                     </div>
                     <div class="project-link col-12 col-sm-6">
-                        <a target="_blank" href="https://portfolio.proqweb.com/anime-list/">
+                        <a target="_blank" href="https://anime-list.oseiquashie.com/">
                             <button class="btn button-link btn-lg">Check it out</button>
                         </a>
                     </div>
@@ -196,7 +196,7 @@
                         </a>
                     </div>
                     <div class="project-link col-12 col-sm-6">
-                        <a target="_blank" href="https://portfolio.proqweb.com/coin-history-demo/">
+                        <a target="_blank" href="https://coin-history.oseiquashie.com/">
                             <button class="btn button-link btn-lg">Check it out</button>
                         </a>
                     </div>
@@ -233,7 +233,7 @@
                         </a>
                     </div>
                     <div class="project-link col-12 col-sm-6">
-                        <a target="_blank" href="https://azfestival.proqweb.com/">
+                        <a target="_blank" href="https://azfestival.oseiquashie.com/">
                             <button class="btn button-link btn-lg">Check it out</button>
                         </a>
                     </div>
@@ -349,53 +349,75 @@
             <div class="arrows left"><span>&#10094;</span></div>
             <div class="thumbnails">
                 <ul class="slider">
-                    <li><a href="https://portfolio.proqweb.com/02" target="_blank"><img src="{{ asset('img/portfolio-image-02.png') }}" alt="php-store-and-blog">
+                    <li>
+                        <a href="https://01.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-01.png') }}" alt="tribute-page">
+                            <p class="proj-info">Created a simple tribute page. <br>Used: HTML, CSS.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://02.oseiquashie.com/" target="_blank"><img src="{{ asset('img/portfolio-image-02.png') }}" alt="php-store-and-blog">
                             <p class="proj-info">Created a mock website for a client. Also has an online store and a
                                 blog. Product data for the store is pulled from a MySQL database. <br>Used: HTML, CSS,
                                 PHP, MySQL.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/03" target="_blank"><img src="{{ asset('img/portfolio-image-03.png') }}" alt="picture-slider">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://03.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-03.png') }}" alt="picture-slider">
                             <p class="proj-info">Created a slider that has a featured picture amoung a gallery of
                                 pictures. The featured picture changes to the selected image. Not responsive. <br>Used:
                                 HTML, CSS, Javascript.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/05" target="_blank"><img src="{{ asset('img/portfolio-image-05.png') }}" alt="simon-game">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://04.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-04.png') }}" alt="simon-game">
                             <p class="proj-info">Created the original Simon game. <br>Used: HTML, CSS, Javascript,
                                 JQuery.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/06" target="_blank"><img src="{{ asset('img/portfolio-image-06.png') }}" alt="tic-tac-toe-game">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://05.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-05.png') }}" alt="tic-tac-toe-game">
                             <p class="proj-info">Created the Tic Tac Toe game against an unbeatable computer. <br>Used:
                                 HTML, CSS, Javascript, JQuery.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/07" target="_blank"><img src="{{ asset('img/portfolio-image-07.png') }}" alt="pomodoro-clock">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://06.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-06.png') }}" alt="pomodoro-clock">
                             <p class="proj-info">Created a Pomodoro Clock that allows the user to adjust the work and
                                 break times. <br>Used: HTML, CSS, Javascript, JQuery.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/08" target="_blank"><img src="{{ asset('img/portfolio-image-08.png') }}" alt="calculator">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://07.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-07.png') }}" alt="calculator">
                             <p class="proj-info">Created a basic calculator. <br>Used: HTML, CSS, Javascript, JQuery.
                             </p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/09" target="_blank"><img src="{{ asset('img/portfolio-image-09.png') }}" alt="twitch-tv">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://08.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-08.png') }}" alt="twitch-tv">
                             <p class="proj-info">Created an interface that displays Twitch.tv profile information. The
                                 user can also toggle the list to view online, offline or all. <br>Used: HTML, CSS,
                                 Javascript, JQuery, Twitch.tv API.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/10" target="_blank"><img src="{{ asset('img/portfolio-image-10.png') }}" alt="wikipedia-search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://09.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-09.png') }}" alt="wikipedia-search">
                             <p class="proj-info">Created interface that displays a list of wikipedia articles related to
                                 what the user searched. <br>Used: HTML, CSS, Javascript, JQuery, Wikipedia API.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/11" target="_blank"><img src="{{ asset('img/portfolio-image-11.png') }}" alt="local-weather-app">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://10.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-10.png') }}" alt="local-weather-app">
                             <p class="proj-info">Created interface that displays the user's location, temperature, and
                                 wind speed/direction. <br>Used: HTML, CSS, Javascript, JQuery, Weather API.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/12" target="_blank"><img src="{{ asset('img/portfolio-image-12.png') }}" alt="random-quote-generator">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://11.oseiquashie.com" target="_blank"><img src="{{ asset('img/portfolio-image-11.png') }}" alt="random-quote-generator">
                             <p class="proj-info">Created interface that shows a random quote when the user clicks a
                                 button. The user can also tweet the quote. <br>Used: HTML, CSS, Javascript, JQuery,
                                 Random Quote API, Twitter API.</p>
-                        </a></li>
-                    <li><a href="https://portfolio.proqweb.com/13" target="_blank"><img src="{{ asset('img/portfolio-image-13.png') }}" alt="tribute-page">
-                            <p class="proj-info">Created a simple tribute page. <br>Used: HTML, CSS.</p>
-                        </a></li>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="arrows right"><span>&#10095;</span></div>
