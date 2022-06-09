@@ -55,6 +55,67 @@
 
         <h2>Client Work</h2>
         <div class="row project-title container">
+            <h3 class="col-lg-5"><strong>Launchpad Dashboard</strong></h3>
+        </div>
+
+        <div class="row project-row container">
+            <div class="col-lg-5 project-img"><img src="{{ asset('img/launchpad-dashboard.png') }}"></div>
+
+            <div class="col project-details">
+                <p><strong>Project Details:</strong></p>
+
+                <ul>
+                    <li>Event management platform to handle applications, payment processing with Authorize.net, and integration with Salesforce.</li>
+                    <li>Developed forms using Form Assembly to process client applications.</li>
+                    <li>Set up email events using Salesforce Marketing Cloud.</li>
+                    <li>Also manages various mini sites designed to be landing pages for events and programs.</li>
+                </ul>
+
+                <p><strong>Technologies Used:</strong></p>
+                <p>PHP, Laravel, Livewire, AlpineJS, Tailwind CSS, JavaScript, JQuery, AJAX, MySQL, Git, Salesforce, Salesforce Object Query Language</p>
+
+                <div class="project-link">
+                    <a target="_blank" href="https://launchpad.cfan.org/">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+
+                </div>
+            </div>
+        </div> <!-- project-row -->
+
+        <hr class="divider">
+
+        <div class="row project-title container">
+            <h3 class="col-lg-5"><strong>Equisolve</strong></h3>
+        </div>
+
+        <div class="row project-row container">
+            <div class="col-lg-5 project-img"><img src="{{ asset('img/equisolve-brands.jpg') }}"></div>
+
+            <div class="col project-details">
+                <p><strong>Project Details:</strong></p>
+
+                <ul>
+                    <li>I worked with an agency to develop Investor Relations websites for various popular brands.</li>
+                    <li>PHP developer for creating websites using a company-developed framework to process and display investor data as graphs and tables.</li>
+                    <li>Provide solutions to common issues to be used in future templates.</li>
+                </ul>
+
+                <p><strong>Technologies Used:</strong></p>
+                <p>PHP, Bootstrap, CSS, JavaScript, JQuery, Git, AJAX, MySQL</p>
+
+                <div class="project-link">
+                    <a target="_blank" href="https://equisolve.com/">
+                        <button class="btn button-link btn-lg">Check it out</button>
+                    </a>
+
+                </div>
+            </div>
+        </div> <!-- project-row -->
+
+        <hr class="divider">
+
+        <div class="row project-title container">
             <h3 class="col-lg-5"><strong>Musetudio</strong></h3>
         </div>
 
@@ -68,13 +129,12 @@
                     <li>Developed a marketplace for sellers to post products and buyers to purchase.</li>
                     <li>Implements Pusher to allow users to send messages in real time.</li>
                     <li>Displays sales and order information on graphs using ChartJS.</li>
-                    <li>Added admin functionality that allows admins to approve user content.</li>
+                    <li>Added admin functionality that will enable admins to approve user content.</li>
                     <li>Uses Stripe Marketplace to charge buyers and payout sellers.</li>
-                    <li>Still being worked on...</li>
                 </ul>
 
                 <p><strong>Technologies Used:</strong></p>
-                <p>PHP, Laravel, Bootstrap, JavaScript, JQuery, AJAX, MySQL</p>
+                <p>PHP, Laravel, Livewire, AlpineJS, Bootstrap, JavaScript, JQuery, Git, AJAX, MySQL</p>
 
                 <div class="project-link">
                     <a target="_blank" href="https://musetudio.com/">
@@ -98,14 +158,14 @@
                 <p><strong>Project Details:</strong></p>
 
                 <ul>
-                    <li>Created a way for local church members to track the number of times delivering a subject</li>
-                    <li>Uses Laravel's Authentication to log user in to their account.</li>
-                    <li>After inputting the signature information, it will be saved in the database and the progress bar will adjust.</li>
+                    <li>Created a way for local church members to track the number of times delivering a subject.</li>
+                    <li>It uses Laravel's Authentication to log users into their accounts.</li>
+                    <li>After inputting the signature information, it will save in the database, and the progress bar will adjust.</li>
                     <li>The user can also select the star associated with a signature and edit it.</li>
                 </ul>
 
                 <p><strong>Technologies Used:</strong></p>
-                <p>PHP, Laravel, Bootstrap, JavaScript, VueJS, Axios, MySQL</p>
+                <p>PHP, Laravel, Bootstrap, JavaScript, VueJS, Axios, Git, MySQL</p>
 
                 <div class="row">
                     <div class="project-link col-12 col-sm-6">
@@ -139,15 +199,15 @@
                 <p><strong>Project Details:</strong></p>
 
                 <ul>
-                    <li>Develop platform where users and create an account, log in and view information about anime</li>
-                    <li>Provide pages that can only be accessed by those with an account.</li>
+                    <li>Develop a platform where users can create an account, log in and view information about anime.</li>
+                    <li>Create a login system with a section only members can access.</li>
                     <li>Allow members to leave comments about an anime and add the anime to a watched list.</li>
-                    <li>Members can rate the anime and view the rating of anime watched by other users</li>
+                    <li>Members can rate the anime and view the rating of anime watched by other users.</li>
                     <li>Discontinued...</li>
                 </ul>
 
                 <p><strong>Technologies Used:</strong></p>
-                <p>HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, MySQL</p>
+                <p>HTML5, CSS3, Bootstrap, JavaScript, Ajax, PHP, Git, MySQL</p>
 
                 <div class="row">
                     <div class="project-link col-12 col-sm-6">
@@ -179,8 +239,8 @@
                 <p><strong>Project Details:</strong></p>
 
                 <ul>
-                    <li>Create MySQL database for storing each coin with it's information.</li>
-                    <li>Display filter selection based off of values found in database.</li>
+                    <li>Create a MySQL database for storing each coin with its information.</li>
+                    <li>Display filter selection based on values found in the database.</li>
                     <li>Used AJAX to filter the coins and display the ones that match the criteria specified live.</li>
                     <li>Styled the display of the coins and their information.</li>
                 </ul>
@@ -216,15 +276,15 @@
                 <p><strong>Project Details:</strong></p>
 
                 <ul>
-                    <li>Developed a dashboard that allowed a quick and easy way for all church members to see preaching results</li>
-                    <li>Provided an easy to use table for church leaders to update daily preaching information for it to display on the dashboard </li>
+                    <li>Developed a dashboard that allowed a quick and easy way for all church members to see preaching results.</li>
+                    <li>Provided an easy-to-use form for church leaders to update daily preaching information to display on the dashboard.</li>
                     <li>Created MySQL Database that contains each church's name and daily preaching information.</li>
-                    <li>Created admin pages that were password protected for church leaders to log in and update their information</li>
+                    <li>Created admin pages that were password protected for church leaders to log in and update their information.</li>
                     <li>Displayed church data using Google Chart's Library.</li>
                 </ul>
 
                 <p><strong>Technologies Used:</strong></p>
-                <p>HTML5, CSS3, Bootstrap, JavaScript, Google Charts, PHP, MySQL</p>
+                <p>HTML5, CSS3, Bootstrap, JavaScript, Google Charts, PHP, Git, MySQL</p>
 
                 <div class="row">
                     <div class="project-link col-12 col-sm-6">
@@ -334,9 +394,10 @@
             <div class="col-sm-12">
                 <x-testimonial 
                     num="0"
+                    image5="{{ asset('img/upwork-5.PNG') }}"
+                    image3="{{ asset('img/upwork-3.PNG') }}"
                     image1="{{ asset('img/upwork-1.PNG') }}"
                     image2="{{ asset('img/upwork-2.PNG') }}"
-                    image3="{{ asset('img/upwork-3.PNG') }}"
                     image4="{{ asset('img/upwork-4.PNG') }}"
                 />
             </div>

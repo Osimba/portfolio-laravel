@@ -42,12 +42,21 @@ h3 {
 	.contact-info .contact-item {
 		padding: 10px;
 	}
-	.contact-info a {
-		color: white;
-	}
-	.contact-info a:hover {
-		color: #48c9f9;
-	}
+		.contact-info .contact-item a {
+			color: white;
+		}
+		.contact-info .contact-item a:hover,
+		.contact-info .contact-item a:focus,
+		.contact-info .contact-item a:active {
+			color: #48c9f9;
+			text-decoration: none;
+		}
+		.contact-info .contact-item a:hover span,
+		.contact-info .contact-item a:focus span,
+		.contact-info .contact-item a:active span {
+			text-decoration: underline;
+		}
+	
 .carousel-control-prev, .carousel-control-next {
 	color: black;
 }
@@ -159,6 +168,9 @@ div.project-row {
 			display: block;
 			text-align: center;
 			padding: 25px 0;
+		}
+		.project-details ul li {
+			margin-left: 15px;
 		}
 
 	.project-row .project-img h3 {
